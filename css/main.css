@@ -1,0 +1,110 @@
+
+/********* BODY STYLES *********/
+
+* {
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url('../images/textile_photo.jpeg');
+	background-size: 100% auto;
+  background-repeat: no-repeat;
+/*  width: 100%;*/
+	margin: 2em 0 5em 0;
+}
+
+.container {
+	max-width: 25em;
+	margin: 0 auto;
+}
+
+.text {
+	font-family: 'Ubuntu', sans-serif;
+	color: #fff;
+}
+
+/********* HEADER STYLES *********/
+
+.title {
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 3.5em;
+	color: #000;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+
+.tagline {
+	font-size: 1em;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+
+
+/********* QUIZ SECTION STYLING *********/
+
+#quiz_items {
+	background: #302013;
+	padding: 1.5em 0;
+}
+
+.question {
+	font-size: 1.5em;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+
+.choices {
+	margin-bottom: 2em;
+}
+
+input[type="checkbox"] {
+	vertical-align: baseline;
+	margin-right: 15px;
+	padding: 5px;
+}
+
+.choices li {
+	font-size: 1.5em;
+	font-weight: 300;
+	list-style: none;
+	margin-left: 4em;
+}
+
+button {
+	color: #fff;
+	background: #000;
+	position: relative;
+	left: 12.5em;
+	border-radius: 5px;
+	padding: 1em 4em;
+	margin: 0 auto;
+}
+
+button:hover {
+	color: #000;
+	background: #e5b541;
+}
+
+footer {
+	text-align: center;
+	margin: 9em auto 1em auto;
+}
+
+.copy {
+		color: #000;
+}
+
+
+
+
+
+
+
+
+

@@ -52,27 +52,28 @@ body {
 	padding: 1.5em 0;
 }
 
-.question {
+#question {
 	font-size: 1.5em;
 	font-weight: 400;
 	text-align: center;
 	margin-bottom: 0.5em;
 }
 
-.choices {
+#choices {
 	margin-bottom: 2em;
 }
 
-input[type="checkbox"] {
+input[type="radio"] {
 	vertical-align: baseline;
 	margin-right: 15px;
 	padding: 5px;
 }
 
-.choices li {
+#choices {
 	font-size: 1.5em;
 	font-weight: 300;
 	list-style: none;
+	line-height: 30px;
 	margin-left: 4em;
 }
 
@@ -83,12 +84,16 @@ button {
 	left: 12.5em;
 	border-radius: 5px;
 	padding: 1em 4em;
-	margin: 0 auto;
+	margin: 0 auto 2em auto;
 }
 
 button:hover {
 	color: #000;
 	background: #e5b541;
+}
+
+#score {
+	text-align: center;
 }
 
 footer {
@@ -97,7 +102,12 @@ footer {
 }
 
 .copy {
-		color: #000;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding: 15px;
+    max-width: 20em;
+    margin: 0 auto;
 }
 
 

@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>The Quiz</title>
+	<meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="css/main.css">
 	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300|Montserrat+Subrayada:400,700' rel='stylesheet' type='text/css'>
 </head>
@@ -17,25 +19,40 @@
 	<section id="quiz_items">
 
 		<div class="container">
-			<p class="tagline text">How much do you know about the fashion industry?</p>
 
-			<p class="question text">What is the name of Balmain's youngest creative director?</p>
+			   <div id="container">
 
+      <div id="content">
+      <p class="tagline text">How much do you know about the fashion industry?</p>
+        <h3 id="question" class="text"></h3>
+        <div id="choices" class="text"></div>
+        <p><button id="submit" class="text"></button></p>
+        <p id="score" class="text"></p>
+      </div>
+    </div>
+
+		<!-- 	<p class="question text">What is the name of Balmain's youngest creative director?</p> -->
+
+			
+<!-- 		<form id="choice_set">
 			<ul class="choices text">
-				<li><input type="checkbox">Ryan Phillipe</input></li>
-				<li><input type="checkbox">Olivier Rousteing</input></li>
-				<li><input type="checkbox">Olivier Martinez</input></li>
-				<li><input type="checkbox">Dorian Gray</input></li>
+				<li><input type="radio" name="Ryan" value="1">Ryan Phillipe</input></li>
+				<li><input type="radio" name="Olivier" value="2">Olivier Rousteing</input></li>
+				<li><input type="radio" name="Martinez" value="3">Olivier Martinez</input></li>
+				<li><input type="radio" name="Dorian" value="4">Dorian Gray</input></li>
 			</ul>
-
-			<button class="text">Answer</button>
-
+		</form> -->
+<!-- 
+			<button class="text submit">Answer</button>
+			<p id="score"></p> -->
 		</div>
 	</section>
 
 	<footer>
 		<p class="text copy">Quiz App designed by Dana Thomas</p>
 	</footer>
-	
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/quiz.js"></script>	
 </body>
 </html>

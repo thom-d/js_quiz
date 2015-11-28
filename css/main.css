@@ -107,10 +107,10 @@ footer {
 .copy {
 	color: #fff;
 	background: rgba(0, 0, 0, 0.8);
-    border-radius: 5px;
-    padding: 15px;
-    max-width: 20em;
-    margin: 0 auto;
+  border-radius: 5px;
+  padding: 15px;
+  max-width: 20em;
+  margin: 0 auto;
 }
 
 /********* QUIZ RESULT TEXT CONTENT *********/

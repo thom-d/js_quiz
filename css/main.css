@@ -1,5 +1,5 @@
 
-/********* BODY STYLES *********/
+/********* GLOBAL STYLING *********/
 
 * {
 	font-family: arial;
@@ -7,16 +7,17 @@
 	padding: 0;
 }
 
+/********* BODY STYLES *********/
+
 body {
 	background-image: url('../images/textile_photo.jpeg');
 	background-size: 100% auto;
   background-repeat: no-repeat;
-/*  width: 100%;*/
 	margin: 2em 0 5em 0;
 }
 
 .container {
-	max-width: 25em;
+	max-width: 27em;
 	margin: 0 auto;
 }
 
@@ -45,7 +46,7 @@ body {
 
 
 
-/********* QUIZ SECTION STYLING *********/
+/********* QUIZ Q & A SECTION STYLING *********/
 
 #quiz_items {
 	background: #302013;
@@ -60,6 +61,11 @@ body {
 }
 
 #choices {
+	font-size: 1.5em;
+	font-weight: 300;
+	list-style: none;
+	line-height: 30px;
+	margin-left: 3.5em;
 	margin-bottom: 2em;
 }
 
@@ -69,13 +75,7 @@ input[type="radio"] {
 	padding: 5px;
 }
 
-#choices {
-	font-size: 1.5em;
-	font-weight: 300;
-	list-style: none;
-	line-height: 30px;
-	margin-left: 4em;
-}
+/********* SUBMIT BUTTON AND SCORE-KEEPER *********/
 
 button {
 	color: #fff;
@@ -87,18 +87,21 @@ button {
 	margin: 0 auto 2em auto;
 }
 
+#score {
+	text-align: center;
+}
+
 button:hover {
 	color: #000;
 	background: #e5b541;
 }
 
-#score {
-	text-align: center;
-}
+/********* FOOTER PAGE STYLING *********/
 
 footer {
 	text-align: center;
-	margin: 9em auto 1em auto;
+	padding-bottom: 0;
+	margin: 8em auto 0 auto;
 }
 
 .copy {
@@ -109,6 +112,18 @@ footer {
     max-width: 20em;
     margin: 0 auto;
 }
+
+/********* QUIZ RESULT TEXT CONTENT *********/
+
+h2 {
+	font-family: 'Ubuntu', sans-serif;
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: 300;
+	text-align: center;
+}
+
+
 
 
 

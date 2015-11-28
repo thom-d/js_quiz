@@ -1,8 +1,12 @@
-//Table of Contents
-//Answer question
-//Alert to inform of score or result
-//Pass to next question
-//??
+/* 
+Table of Contents
+
+  1. Select the choice.
+  2. Submit the answer
+  3. Receive the question result.
+  4. Pass to the next question.
+  5. The quiz percentage is tallied up and presented at the end. 
+*/
 
 
 var quiz = [{

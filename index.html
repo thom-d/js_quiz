@@ -9,49 +9,42 @@
 	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300|Montserrat+Subrayada:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	
+
+<!--  HEADER PAGE ELEMENT  -->
+
 	<header>
 		<div class="container">
 			<p class="title">The Quiz Challenge</p>
 		</div>
 	</header>
 
+<!--  QUIZ CONTENT SECTION  -->
+
 	<section id="quiz_items">
+	<div class="container">
 
-		<div class="container">
-
-			   <div id="container">
-
-      <div id="content">
+    <div id="content">
       <p class="tagline text">How much do you know about the fashion industry?</p>
-        <h3 id="question" class="text"></h3>
-        <div id="choices" class="text"></div>
-        <p><button id="submit" class="text"></button></p>
-        <p id="score" class="text"></p>
-      </div>
-    </div>
+      <!--  Q & A SECTION  -->
+      <h3 id="question" class="text"></h3>
+      <div id="choices" class="text"></div>
+      <!--  SUBMIT BUTTON  -->
+      <p><button id="submit" class="text"></button></p>
+      <!--  SCOREKEEPER  -->
+      <p id="score" class="text"></p>
+		</div> 
 
-		<!-- 	<p class="question text">What is the name of Balmain's youngest creative director?</p> -->
-
-			
-<!-- 		<form id="choice_set">
-			<ul class="choices text">
-				<li><input type="radio" name="Ryan" value="1">Ryan Phillipe</input></li>
-				<li><input type="radio" name="Olivier" value="2">Olivier Rousteing</input></li>
-				<li><input type="radio" name="Martinez" value="3">Olivier Martinez</input></li>
-				<li><input type="radio" name="Dorian" value="4">Dorian Gray</input></li>
-			</ul>
-		</form> -->
-<!-- 
-			<button class="text submit">Answer</button>
-			<p id="score"></p> -->
-		</div>
+	</div>
 	</section>
+
+<!--  FOOTER PAGE ELEMENT  -->
 
 	<footer>
 		<p class="text copy">Quiz App designed by Dana Thomas</p>
 	</footer>
 
+
+<!--  JAVASCRIPT LINKS  -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/quiz.js"></script>	
 </body>
